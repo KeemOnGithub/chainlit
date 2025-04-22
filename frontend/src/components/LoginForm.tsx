@@ -103,7 +103,7 @@ export function LoginForm({
               <Input
                 id="email"
                 autoFocus
-                placeholder="me@example.com"
+                placeholder="user@smartcore.group"
                 {...register('email', {
                   required: t(
                     'components.molecules.auth.authLogin.form.emailRequired'
